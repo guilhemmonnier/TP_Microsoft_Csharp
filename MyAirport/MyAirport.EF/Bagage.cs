@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace glhm.MyAirport.EF
 {
@@ -11,14 +12,15 @@ namespace glhm.MyAirport.EF
        
 
         public string CodeIata { get; set; }
+        [Column("Date_de_creation")]
         public DateTime DateCreation { get; set; }
-        public String Classe { get; set; }
-        public Boolean Prioritaire { get; set; }
-        public char Sta { get; set; }
-        public string Ssur { get; set; }
-        public string Destination { get; set; }
+        public String? Classe { get; set; }
+        public Boolean? Prioritaire { get; set; }
+        public char? Sta { get; set; }
+        public string? Ssur { get; set; }
+        public string? Destination { get; set; }
 
-        public string Escale { get; set; }
+        public string? Escale { get; set; }
 
         //Foreign Key
         public int? VolId { get; set; }
