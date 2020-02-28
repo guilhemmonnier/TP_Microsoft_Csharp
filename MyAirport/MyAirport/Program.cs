@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Linq;
 
+
 namespace glhm.MyAirport.EF
 {
     public class Program
     {
+        
         static void Main(string[] args)
         {
             System.Console.WriteLine("MyAirport project bonjour!!");

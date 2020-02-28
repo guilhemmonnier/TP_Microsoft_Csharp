@@ -6,3 +6,4 @@ C:\Users\Guilhem\Desktop\Sandbox\TP_Microsoft_Csharp\MyAirport\MyAirport.EF\bin\
 C:\Users\Guilhem\Desktop\Sandbox\TP_Microsoft_Csharp\MyAirport\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.dll
 C:\Users\Guilhem\Desktop\Sandbox\TP_Microsoft_Csharp\MyAirport\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.pdb
 C:\Users\Guilhem\Desktop\Sandbox\TP_Microsoft_Csharp\MyAirport\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.csprojAssemblyReference.cache
+C:\Users\Guilhem\Desktop\Sandbox\TP_Microsoft_Csharp\MyAirport\MyAirport.EF\bin\Debug\netcoreapp3.1\MyAirport.EF.dll.config
