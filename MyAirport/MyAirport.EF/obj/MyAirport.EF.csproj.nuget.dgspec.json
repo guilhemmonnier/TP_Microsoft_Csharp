@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Guilhem\\Desktop\\Sandbox\\TP_Microsoft_Csharp\\MyAirport\\MyAirport\\MyAirport.csproj": {}
+    "C:\\Users\\Guilhem\\Desktop\\Sandbox\\TP_Microsoft_Csharp\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Guilhem\\Desktop\\Sandbox\\TP_Microsoft_Csharp\\MyAirport\\MyAirport\\MyAirport.csproj": {
+    "C:\\Users\\Guilhem\\Desktop\\Sandbox\\TP_Microsoft_Csharp\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guilhem\\Desktop\\Sandbox\\TP_Microsoft_Csharp\\MyAirport\\MyAirport\\MyAirport.csproj",
-        "projectName": "MyAirport",
-        "projectPath": "C:\\Users\\Guilhem\\Desktop\\Sandbox\\TP_Microsoft_Csharp\\MyAirport\\MyAirport\\MyAirport.csproj",
+        "projectUniqueName": "C:\\Users\\Guilhem\\Desktop\\Sandbox\\TP_Microsoft_Csharp\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj",
+        "projectName": "MyAirport.EF",
+        "projectPath": "C:\\Users\\Guilhem\\Desktop\\Sandbox\\TP_Microsoft_Csharp\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj",
         "packagesPath": "C:\\Users\\Guilhem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guilhem\\Desktop\\Sandbox\\TP_Microsoft_Csharp\\MyAirport\\MyAirport\\obj\\",
+        "outputPath": "C:\\Users\\Guilhem\\Desktop\\Sandbox\\TP_Microsoft_Csharp\\MyAirport\\MyAirport.EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Guilhem\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,9 +38,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.2, )"
             }

@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace glhm
+namespace glhm.MyAirport.EF
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
