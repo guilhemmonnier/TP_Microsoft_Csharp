@@ -24,6 +24,7 @@ namespace glhm.MyAirport.EF
            .UseSqlServer(connectionString);
 
             using (var db = new MyAirportContext(optionsBuilder.Options))
+           // using (var db = new MyAirportContext())
             {
                 // Create
                 Console.WriteLine("Création du vol LH1232");

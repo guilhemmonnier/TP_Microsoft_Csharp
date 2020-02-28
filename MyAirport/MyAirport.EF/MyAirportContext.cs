@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,18 +17,18 @@ namespace glhm.MyAirport.EF
         public DbSet<Bagage> Bagages { get; set; }
         public DbSet<Vol> Vols { get; set; }
 
-        private ILoggerFactory loggerFactory;
+         public static readonly ILoggerFactory loggerFactory = LoggerFactory.Create(builder => { builder.AddConsole(); });
 
-        public MyAirportContext(DbContextOptions options) : base (options)
-        {
-          
-        }
+         public MyAirportContext(DbContextOptions options) : base (options)
+         {
+
+         }
 
         /*protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseLoggerFactory(loggerFactory);
-            options.UseSqlServer(ConfigurationManager.ConnectionStrings["MyAirportDatabase"].ConnectionString);
-            //options.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=MyAirport;Integrated Security=True");
+            //options.UseLoggerFactory(loggerFactory);
+            //options.UseSqlServer(ConfigurationManager.ConnectionStrings["MyAirportDatabase"].ConnectionString);
+            options.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=MyAirport;Integrated Security=True");
         }*/
 
         

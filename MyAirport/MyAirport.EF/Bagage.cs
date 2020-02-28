@@ -12,7 +12,7 @@ namespace glhm.MyAirport.EF
        
 
         public string CodeIata { get; set; }
-        [Column("Date_de_creation")]
+        [Column("DateDeCreation")]
         public DateTime DateCreation { get; set; }
         public String? Classe { get; set; }
         public Boolean? Prioritaire { get; set; }
