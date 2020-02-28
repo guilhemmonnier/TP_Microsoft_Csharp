@@ -121,6 +121,10 @@
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",
               "version": "[3.1.2, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
             }
           },
           "imports": [

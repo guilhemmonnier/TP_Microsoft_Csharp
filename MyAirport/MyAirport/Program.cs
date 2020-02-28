@@ -1,16 +1,29 @@
 ﻿using System;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Console;
+using System.Configuration;
+
 
 
 namespace glhm.MyAirport.EF
 {
     public class Program
     {
-        
+        public static readonly ILoggerFactory MyLoggerFactory= LoggerFactory.Create(builder => { builder.AddConsole(); });
+
+       
+
         static void Main(string[] args)
         {
             System.Console.WriteLine("MyAirport project bonjour!!");
-            using (var db = new MyAirportContext())
+            var connectionString = ConfigurationManager.ConnectionStrings["MyAirportDatabase"].ConnectionString;
+            var optionsBuilder = new DbContextOptionsBuilder<MyAirportContext>()
+           .UseLoggerFactory(MyLoggerFactory)
+           .UseSqlServer(connectionString);
+
+            using (var db = new MyAirportContext(optionsBuilder.Options))
             {
                 // Create
                 Console.WriteLine("Création du vol LH1232");

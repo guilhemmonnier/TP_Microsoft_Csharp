@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Tools": "3.1.2",
           "Microsoft.Extensions.Logging.Console": "3.1.2",
-          "MyAirport.EF": "1.0.0"
+          "MyAirport.EF": "1.0.0",
+          "System.Configuration.ConfigurationManager": "4.7.0"
         },
         "runtime": {
           "MyAirport.dll": {}

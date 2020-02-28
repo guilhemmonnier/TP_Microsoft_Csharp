@@ -55,3 +55,4 @@ C:\Users\Guilhem\Desktop\Sandbox\TP_Microsoft_Csharp\MyAirport\MyAirport\bin\Deb
 C:\Users\Guilhem\Desktop\Sandbox\TP_Microsoft_Csharp\MyAirport\MyAirport\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
 C:\Users\Guilhem\Desktop\Sandbox\TP_Microsoft_Csharp\MyAirport\MyAirport\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\Guilhem\Desktop\Sandbox\TP_Microsoft_Csharp\MyAirport\MyAirport\bin\Debug\netcoreapp3.1\MyAirport.EF.dll.config
+C:\Users\Guilhem\Desktop\Sandbox\TP_Microsoft_Csharp\MyAirport\MyAirport\bin\Debug\netcoreapp3.1\MyAirport.dll.config
