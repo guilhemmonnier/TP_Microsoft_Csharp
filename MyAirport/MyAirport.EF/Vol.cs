@@ -7,9 +7,8 @@ namespace glhm.MyAirport.EF
     public class Vol
     {
         public int VolId { get; set; }
-        public int Cie { get; set; }
+        public String Cie { get; set; }
         public string Lig { get; set; }
-        public int Jex { get; set; }
         public DateTime Dhc { get; set; }
         public string Pkg { get; set; }
         public string Imm { get; set; }

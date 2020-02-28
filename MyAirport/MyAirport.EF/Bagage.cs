@@ -5,14 +5,14 @@ namespace glhm.MyAirport.EF
     public class Bagage
     {
         
-        public int BagageId { get; set; }
+        public int BagageID { get; set; }
         
        
        
 
-        public string Code_Iata { get; set; }
-        public DateTime Date_Creation { get; set; }
-        public char Classe { get; set; }
+        public string CodeIata { get; set; }
+        public DateTime DateCreation { get; set; }
+        public String Classe { get; set; }
         public Boolean Prioritaire { get; set; }
         public char Sta { get; set; }
         public string Ssur { get; set; }
