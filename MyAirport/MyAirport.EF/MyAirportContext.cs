@@ -5,12 +5,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace glhm.MyAirport.EF
 {
-    public class MyAirportContext
+    public class MyAirportContext : DbContext
     {
         public DbSet<Bagage> Bagages { get; set; }
         public DbSet<Vol> Vols { get; set; }
         //commentaire
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-            => options.UseSqlServer("Data Source=airport.db");
+        {
+            options.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=MyAirport;Integrated Security=True");
+        }
     }
 }

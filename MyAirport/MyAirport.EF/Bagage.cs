@@ -6,7 +6,9 @@ namespace glhm.MyAirport.EF
     {
         
         public int BagageId { get; set; }
-        public int VolId { get; set; }
+        
+       
+       
 
         public string Code_Iata { get; set; }
         public DateTime Date_Creation { get; set; }
@@ -17,5 +19,9 @@ namespace glhm.MyAirport.EF
         public string Destination { get; set; }
 
         public string Escale { get; set; }
+
+        //Foreign Key
+        public int? VolId { get; set; }
+        public Vol Vol { get; set; }
     }
 }
