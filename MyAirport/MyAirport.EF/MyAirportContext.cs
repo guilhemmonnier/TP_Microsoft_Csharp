@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
-
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Console;
 
