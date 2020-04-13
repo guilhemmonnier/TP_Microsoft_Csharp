@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Guilhem\\Desktop\\Sandbox\\TP_Microsoft_Csharp\\MyAirport\\MyAirport\\MyAirport.csproj": {}
+    "C:\\Users\\sesa515057\\Desktop\\ECE PARIS\\TechWeb\\TP_Microsoft_Csharp\\MyAirport\\MyAirport\\MyAirport.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Guilhem\\Desktop\\Sandbox\\TP_Microsoft_Csharp\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj": {
+    "C:\\Users\\sesa515057\\Desktop\\ECE PARIS\\TechWeb\\TP_Microsoft_Csharp\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guilhem\\Desktop\\Sandbox\\TP_Microsoft_Csharp\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj",
+        "projectUniqueName": "C:\\Users\\sesa515057\\Desktop\\ECE PARIS\\TechWeb\\TP_Microsoft_Csharp\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj",
         "projectName": "MyAirport.EF",
-        "projectPath": "C:\\Users\\Guilhem\\Desktop\\Sandbox\\TP_Microsoft_Csharp\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj",
-        "packagesPath": "C:\\Users\\Guilhem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guilhem\\Desktop\\Sandbox\\TP_Microsoft_Csharp\\MyAirport\\MyAirport.EF\\obj\\",
+        "projectPath": "C:\\Users\\sesa515057\\Desktop\\ECE PARIS\\TechWeb\\TP_Microsoft_Csharp\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj",
+        "packagesPath": "C:\\Users\\sesa515057\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sesa515057\\Desktop\\ECE PARIS\\TechWeb\\TP_Microsoft_Csharp\\MyAirport\\MyAirport.EF\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Guilhem\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\sesa515057\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -70,22 +75,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Guilhem\\Desktop\\Sandbox\\TP_Microsoft_Csharp\\MyAirport\\MyAirport\\MyAirport.csproj": {
+    "C:\\Users\\sesa515057\\Desktop\\ECE PARIS\\TechWeb\\TP_Microsoft_Csharp\\MyAirport\\MyAirport\\MyAirport.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guilhem\\Desktop\\Sandbox\\TP_Microsoft_Csharp\\MyAirport\\MyAirport\\MyAirport.csproj",
+        "projectUniqueName": "C:\\Users\\sesa515057\\Desktop\\ECE PARIS\\TechWeb\\TP_Microsoft_Csharp\\MyAirport\\MyAirport\\MyAirport.csproj",
         "projectName": "MyAirport",
-        "projectPath": "C:\\Users\\Guilhem\\Desktop\\Sandbox\\TP_Microsoft_Csharp\\MyAirport\\MyAirport\\MyAirport.csproj",
-        "packagesPath": "C:\\Users\\Guilhem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guilhem\\Desktop\\Sandbox\\TP_Microsoft_Csharp\\MyAirport\\MyAirport\\obj\\",
+        "projectPath": "C:\\Users\\sesa515057\\Desktop\\ECE PARIS\\TechWeb\\TP_Microsoft_Csharp\\MyAirport\\MyAirport\\MyAirport.csproj",
+        "packagesPath": "C:\\Users\\sesa515057\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sesa515057\\Desktop\\ECE PARIS\\TechWeb\\TP_Microsoft_Csharp\\MyAirport\\MyAirport\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Guilhem\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\sesa515057\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -97,8 +107,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Guilhem\\Desktop\\Sandbox\\TP_Microsoft_Csharp\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj": {
-                "projectPath": "C:\\Users\\Guilhem\\Desktop\\Sandbox\\TP_Microsoft_Csharp\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj"
+              "C:\\Users\\sesa515057\\Desktop\\ECE PARIS\\TechWeb\\TP_Microsoft_Csharp\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj": {
+                "projectPath": "C:\\Users\\sesa515057\\Desktop\\ECE PARIS\\TechWeb\\TP_Microsoft_Csharp\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj"
               }
             }
           }
@@ -142,7 +152,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

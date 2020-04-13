@@ -18,17 +18,17 @@ namespace glhm.MyAirport.EF
 
          public static readonly ILoggerFactory loggerFactory = LoggerFactory.Create(builder => { builder.AddConsole(); });
 
-         public MyAirportContext(DbContextOptions options) : base (options)
+         /*public MyAirportContext(DbContextOptions options) : base (options)
          {
 
-         }
+         }*/
 
-        /*protected override void OnConfiguring(DbContextOptionsBuilder options)
+        protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
             //options.UseLoggerFactory(loggerFactory);
             //options.UseSqlServer(ConfigurationManager.ConnectionStrings["MyAirportDatabase"].ConnectionString);
             options.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=MyAirport;Integrated Security=True");
-        }*/
+        }
 
         
 

@@ -15,6 +15,6 @@ namespace glhm.MyAirport.EF
         public int? Pax { get; set; }
         public string? Des { get; set; }
 
-        public List<Bagage> Bagages { get; } = new List<Bagage>();
+        public IEnumerable<Bagage>? Bagages { get; set; } 
     }
 }
