@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyAirportApiWeb</name>
+    </assembly>
+    <members>
+        <member name="M:MyAirportApiWeb.Controllers.BagagesController.GetBagages">
+            <summary>
+            Selectionne l'ensemble des bagages créer par la compagnie en ASynchrone.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MyAirportApiWeb.Controllers.BagagesController.PostBagage(glhm.MyAirport.EF.Bagage)">
+            <summary>
+            Création d'un nouveau bagage 
+            </summary>
+            <param name="bagage"></param>
+            <returns> Un object task qui content un ActionResult qui lui meme contient une liste de bagage</returns>
+        </member>
+    </members>
+</doc>

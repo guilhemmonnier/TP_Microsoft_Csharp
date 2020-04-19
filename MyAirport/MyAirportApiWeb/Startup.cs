@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Security.Cryptography.Xml;
 using System.Threading.Tasks;
 using glhm.MyAirport.EF;
@@ -38,9 +40,34 @@ namespace MyAirportApiWeb
             });
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "MyAirportApiWeb", Version = "v1" });
-            });
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "MyApirtApiWeb",
+                    Description = "Gestion logistique de vols",
+                    TermsOfService = new Uri("https://example.com/terms"),
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Shayne Boyer",
+                        Email = string.Empty,
+                        Url = new Uri("https://twitter.com/spboyer"),
+                    },
+                    License = new OpenApiLicense
+                    {
+                        Name = "Use under LICX",
+                        Url = new Uri("https://example.com/license"),
+                    }
+                });
+           
+            // Set the comments path for the Swagger JSON and UI.
+            var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+            var xmlEF = "MyAirport.EF.xml";
+            var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+            var xmlPathEF = Path.Combine(AppContext.BaseDirectory, xmlEF);
 
+                c.IncludeXmlComments(xmlPathEF);
+                c.IncludeXmlComments(xmlPath);
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

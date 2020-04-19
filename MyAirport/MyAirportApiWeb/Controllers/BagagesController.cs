@@ -21,6 +21,10 @@ namespace MyAirportApiWeb.Controllers
         }
 
         // GET: api/Bagages
+        /// <summary>
+        /// Selectionne l'ensemble des bagages créer par la compagnie en ASynchrone.
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Bagage>>> GetBagages()
         {
@@ -28,6 +32,9 @@ namespace MyAirportApiWeb.Controllers
         }
 
         // GET: api/Bagages/5
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+
         [HttpGet("{id}")]
         public async Task<ActionResult<Bagage>> GetBagage(int id)
         {
@@ -44,6 +51,9 @@ namespace MyAirportApiWeb.Controllers
         // PUT: api/Bagages/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // more details see https://aka.ms/RazorPagesCRUD.
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         [HttpPut("{id}")]
         public async Task<IActionResult> PutBagage(int id, Bagage bagage)
         {
@@ -76,6 +86,14 @@ namespace MyAirportApiWeb.Controllers
         // POST: api/Bagages
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // more details see https://aka.ms/RazorPagesCRUD.
+        /// <summary>
+        /// Création d'un nouveau bagage 
+        /// </summary>
+        /// <param name="bagage"></param>
+        /// <returns> Un object task qui content un ActionResult qui lui meme contient une liste de bagage</returns
+
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         [HttpPost]
         public async Task<ActionResult<Bagage>> PostBagage(Bagage bagage)
         {
@@ -86,6 +104,13 @@ namespace MyAirportApiWeb.Controllers
         }
 
         // DELETE: api/Bagages/5
+        /// <summary>
+        /// Delete bagages for compagny database
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         [HttpDelete("{id}")]
         public async Task<ActionResult<Bagage>> DeleteBagage(int id)
         {

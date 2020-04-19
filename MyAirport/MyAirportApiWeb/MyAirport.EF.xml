@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyAirport.EF</name>
+    </assembly>
+    <members>
+        <member name="T:glhm.MyAirport.EF.Bagage">
+            <summary>
+            Objet bagage
+            </summary>
+        </member>
+        <member name="P:glhm.MyAirport.EF.Bagage.BagageID">
+            <summary>
+            Clé primaire de l'objet bagage
+            </summary>
+        </member>
+        <member name="P:glhm.MyAirport.EF.Bagage.CodeIata">
+            <summary>
+            CodeIata du bagage
+            </summary>
+        </member>
+        <member name="P:glhm.MyAirport.EF.Bagage.DateCreation">
+            <summary>
+             Date a laquelle le bagage a été créer par la compagnie
+            </summary>
+        </member>
+    </members>
+</doc>

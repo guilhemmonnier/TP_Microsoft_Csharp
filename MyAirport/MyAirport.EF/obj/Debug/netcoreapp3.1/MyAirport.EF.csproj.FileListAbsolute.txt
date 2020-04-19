@@ -20,3 +20,4 @@ C:\Users\sesa515057\Desktop\ECE PARIS\TechWeb\TP_Microsoft_Csharp\MyAirport\MyAi
 C:\Users\sesa515057\Desktop\ECE PARIS\TechWeb\TP_Microsoft_Csharp\MyAirport\MyAirport.EF\bin\Debug\netcoreapp3.1\MyAirport.EF.runtimeconfig.dev.json
 C:\Users\sesa515057\Desktop\ECE PARIS\TechWeb\TP_Microsoft_Csharp\MyAirport\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.csproj.CoreCompileInputs.cache
 C:\Users\sesa515057\Desktop\ECE PARIS\TechWeb\TP_Microsoft_Csharp\MyAirport\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.genruntimeconfig.cache
+C:\Users\sesa515057\Desktop\ECE PARIS\TechWeb\TP_Microsoft_Csharp\MyAirport\MyAirport.EF\bin\Debug\netcoreapp3.1\MyAirport.EF.xml
