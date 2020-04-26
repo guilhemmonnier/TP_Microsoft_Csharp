@@ -1,0 +1,17 @@
+C:\Users\imadt\OneDrive\Documents\Saad\C#\NetCore-master\NetCore-master\MyAirport.EF\bin\Debug\netcoreapp3.1\MyAirport.EF.deps.json
+C:\Users\imadt\OneDrive\Documents\Saad\C#\NetCore-master\NetCore-master\MyAirport.EF\bin\Debug\netcoreapp3.1\MyAirport.EF.dll
+C:\Users\imadt\OneDrive\Documents\Saad\C#\NetCore-master\NetCore-master\MyAirport.EF\bin\Debug\netcoreapp3.1\MyAirport.EF.pdb
+C:\Users\imadt\OneDrive\Documents\Saad\C#\NetCore-master\NetCore-master\MyAirport.EF\bin\Debug\netcoreapp3.1\MyAirport.EF.xml
+C:\Users\imadt\OneDrive\Documents\Saad\C#\NetCore-master\NetCore-master\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.csprojAssemblyReference.cache
+C:\Users\imadt\OneDrive\Documents\Saad\C#\NetCore-master\NetCore-master\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.csproj.CoreCompileInputs.cache
+C:\Users\imadt\OneDrive\Documents\Saad\C#\NetCore-master\NetCore-master\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.AssemblyInfoInputs.cache
+C:\Users\imadt\OneDrive\Documents\Saad\C#\NetCore-master\NetCore-master\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.AssemblyInfo.cs
+C:\Users\imadt\OneDrive\Documents\Saad\C#\NetCore-master\NetCore-master\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.dll
+C:\Users\imadt\OneDrive\Documents\Saad\C#\NetCore-master\NetCore-master\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.xml
+C:\Users\imadt\OneDrive\Documents\Saad\C#\NetCore-master\NetCore-master\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.pdb
+C:\Users\Guilhem\Downloads\c# project\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.csprojAssemblyReference.cache
+C:\Users\Guilhem\Downloads\c# project\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.AssemblyInfoInputs.cache
+C:\Users\Guilhem\Downloads\c# project\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.AssemblyInfo.cs
+C:\Users\Guilhem\Downloads\c# project\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.dll
+C:\Users\Guilhem\Downloads\c# project\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.xml
+C:\Users\Guilhem\Downloads\c# project\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.pdb

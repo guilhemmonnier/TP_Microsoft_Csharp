@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyAirport.EF</name>
+    </assembly>
+    <members>
+        <member name="T:MF.MyAirport.EF.Bagage">
+            <summary>
+            Objet Bagage
+            </summary>
+        </member>
+        <member name="P:MF.MyAirport.EF.Bagage.BagageId">
+            <summary>
+            Id clé primaire de l'objet bagage
+            </summary>
+        </member>
+        <member name="P:MF.MyAirport.EF.Bagage.VolId">
+            <summary>
+            Vol associé au bagage
+            </summary>
+        </member>
+        <member name="P:MF.MyAirport.EF.Bagage.CodeIata">
+            <summary>
+            CoddeIata du bagage, unique à un instant t
+            </summary>
+        </member>
+        <member name="P:MF.MyAirport.EF.Bagage.DateCreation">
+            <summary>
+            Date à laquelle le bagage a été créé par la compagnie
+            </summary>
+        </member>
+        <member name="P:MF.MyAirport.EF.Bagage.Vol">
+            <summary>
+            Propriété de navigation
+            </summary>
+        </member>
+        <member name="P:MF.MyAirport.EF.Bagage.Classe">
+            <summary>
+            Classe du passager (1ère, éco, business)
+            </summary>
+        </member>
+        <member name="P:MF.MyAirport.EF.Bagage.Prioritaire">
+            <summary>
+            Définit si le passager est considéré prioritaire lors de l'embarquement
+            </summary>
+        </member>
+        <member name="P:MF.MyAirport.EF.Bagage.Sta">
+            <summary>
+            Statut du bagage
+            </summary>
+        </member>
+        <member name="P:MF.MyAirport.EF.Bagage.Ssur">
+            <summary>
+            ?
+            </summary>
+        </member>
+        <member name="P:MF.MyAirport.EF.Bagage.Destination">
+            <summary>
+            Lieu de destination du vol
+            </summary>
+        </member>
+        <member name="P:MF.MyAirport.EF.Bagage.Escale">
+            <summary>
+            Lieu de l'escale, s'il y en a une
+            </summary>
+        </member>
+        <member name="M:MF.MyAirport.EF.Bagage.#ctor">
+            <summary>
+            Création d'un bagage vide afin de pouvoir mettre les bagaes à null lors de la création d'un vol
+            </summary>
+        </member>
+        <member name="M:MF.MyAirport.EF.Bagage.#ctor(System.String,System.DateTime)">
+            <summary>
+            Création d'un bagage
+            </summary>
+        </member>
+        <member name="T:MF.MyAirport.EF.Migrations.tp3_terminé">
+            <summary>
+            Classe gérant les migrations
+            </summary>
+        </member>
+        <member name="M:MF.MyAirport.EF.Migrations.tp3_terminé.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <summary>
+            Méthode en lien avec les migrations
+            </summary>
+            <param name="migrationBuilder"></param>
+        </member>
+        <member name="M:MF.MyAirport.EF.Migrations.tp3_terminé.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <summary>
+            Méthode en lien avec les migrations
+            </summary>
+            <param name="migrationBuilder"></param>
+        </member>
+        <member name="M:MF.MyAirport.EF.Migrations.tp3_terminé.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            Classe en lien avec les migrations
+            </summary>
+            <param name="modelBuilder"></param>
+        </member>
+        <member name="T:MF.MyAirport.EF.Migrations.test">
+            <summary>
+            Classe gérant les migrations
+            </summary>
+        </member>
+        <member name="M:MF.MyAirport.EF.Migrations.test.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <summary>
+            Méthode en lien avec les migrations
+            </summary>
+            <param name="migrationBuilder"></param>
+        </member>
+        <member name="M:MF.MyAirport.EF.Migrations.test.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <summary>
+            Méthode en lien avec les migrations
+            </summary>
+            <param name="migrationBuilder"></param>
+        </member>
+        <member name="M:MF.MyAirport.EF.Migrations.test.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            Méthode en lien avec les migrations 
+            </summary>
+            <param name="modelBuilder"></param>
+        </member>
+        <member name="T:MF.MyAirport.EF.Migrations.test_bis">
+            <summary>
+            Classe gérant les migrations
+            </summary>
+        </member>
+        <member name="M:MF.MyAirport.EF.Migrations.test_bis.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <summary>
+            Méthode en lien avec les migrations
+            </summary>
+            <param name="migrationBuilder"></param>
+        </member>
+        <member name="M:MF.MyAirport.EF.Migrations.test_bis.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <summary>
+            Méthode en lien avec les migrations
+            </summary>
+            <param name="migrationBuilder"></param>
+        </member>
+        <member name="M:MF.MyAirport.EF.Migrations.test_bis.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            Méthode en lien avec les migrations
+            </summary>
+            <param name="modelBuilder"></param>
+        </member>
+        <member name="T:MF.MyAirport.EF.MyAirportContext">
+            <summary>
+            Classe appelant les différentes méthodes en lien avec l'aéroport
+            </summary>
+        </member>
+        <member name="M:MF.MyAirport.EF.MyAirportContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{MF.MyAirport.EF.MyAirportContext})">
+            <summary>
+            Référence à MyAirportContext
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="P:MF.MyAirport.EF.MyAirportContext.Vols">
+            <summary>
+            Référence à la classe bagage
+            </summary>
+        </member>
+        <member name="P:MF.MyAirport.EF.MyAirportContext.Bagages">
+            <summary>
+            Référence à la classe bagage
+            </summary>
+        </member>
+        <member name="T:MyAirport.EF.Vol">
+            <summary>
+            Objet vol
+            </summary>
+        </member>
+        <member name="P:MyAirport.EF.Vol.VolId">
+            <summary>
+            Id du vol
+            </summary>
+        </member>
+        <member name="P:MyAirport.EF.Vol.Cie">
+            <summary>
+            Compagnie effectuant le vol
+            </summary>
+        </member>
+        <member name="P:MyAirport.EF.Vol.Des">
+            <summary>
+            Destination du vol
+            </summary>
+        </member>
+        <member name="P:MyAirport.EF.Vol.Dhc">
+            <summary>
+            Date de départ du vol
+            </summary>
+        </member>
+        <member name="P:MyAirport.EF.Vol.Imm">
+            <summary>
+            Immatriculation du vol
+            </summary>
+        </member>
+        <member name="P:MyAirport.EF.Vol.Lig">
+            <summary>
+            Ligne du vol
+            </summary>
+        </member>
+        <member name="P:MyAirport.EF.Vol.Pkg">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MyAirport.EF.Vol.Pax">
+            <summary>
+            Nombre de personnes sur le vol
+            </summary>
+        </member>
+        <member name="P:MyAirport.EF.Vol.Bagages">
+            <summary>
+            Référence à la classe bagage
+            </summary>
+        </member>
+        <member name="M:MyAirport.EF.Vol.#ctor">
+            <summary>
+            Création d'un vol vide
+            </summary>
+        </member>
+        <member name="M:MyAirport.EF.Vol.#ctor(System.String,System.String,System.DateTime)">
+            <summary>
+            Création d'un vol
+            </summary>
+            <param name="cie"></param>
+            <param name="lig"></param>
+            <param name="dhc"></param>
+        </member>
+    </members>
+</doc>
