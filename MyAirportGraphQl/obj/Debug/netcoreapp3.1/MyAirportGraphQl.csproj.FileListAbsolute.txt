@@ -1,0 +1,1 @@
+C:\Users\Guilhem\Downloads\c# project\MyAirportGraphQl\obj\Debug\netcoreapp3.1\MyAirportGraphQl.csprojAssemblyReference.cache
